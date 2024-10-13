@@ -1,0 +1,22 @@
+multiplication table
+this takes any input from the user and creates the multiples from 1-12
+using System;
+
+namespace HelloWorld
+{
+  class Program
+  {
+    static void Main(string[] args)
+    {
+  double x;    
+Console.Write("Enter variable x:");
+x=Convert.ToDouble(Console.ReadLine());
+
+int i;
+for(i=1; i<=12; i++)
+ {
+  Console.WriteLine(x + " * " + i + " = " + i*3);
+  }
+}
+}
+}
